@@ -1,0 +1,608 @@
+@media (max-width: 575.99px) {
+  .navbar-toggler-icon {
+    background-image: none;
+    color: #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: solid 1px #ffffff49;
+  }
+  .navbar-toggler {
+    line-height: normal;
+    border: none;
+  }
+  .navbar-nav {
+    background-color: #1c1e53;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-item:hover {
+    background-color: darkslateblue;
+  }
+
+  .cont_btn {
+    display: none;
+  }
+
+  /* Banner part start */
+  #banner {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  .banner_left h1 {
+    color: #fff;
+    font-size: 23px;
+    line-height: 35px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .banner_left p {
+    padding-left: 10px;
+  }
+  .Banner_btn_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .banner_btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .banner_btn2 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  .banner_btn2 svg {
+    margin-left: 2px;
+  }
+
+  /* Work part Start here */
+  #work {
+    padding: 45px 0;
+  }
+  .work_left {
+    margin: 20px 0;
+  }
+  #work h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #work .work_pera {
+    font-size: 14px;
+    margin-bottom: 8px;
+    line-height: 20px;
+  }
+  .work_right_item {
+    margin: 10px 0;
+  }
+  .work_right_icon {
+    margin-bottom: 8px;
+  }
+  #work h4 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  /*  Project Start  */
+  #project {
+    padding: 50px 0;
+  }
+  #project h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .project_left img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .overly_left_img {
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  .p_r_img_overlay {
+    padding: 20px;
+  }
+  /* =======  Design ========= */
+  #design {
+    padding: 50px 0;
+  }
+  #design h2 {
+    margin: auto;
+    width: auto;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 33px;
+  }
+
+  #design h2 {
+    margin: auto;
+    width: auto;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 33px;
+    height: auto;
+}
+.design_item {
+  padding: 20px;
+}
+.client_review_left {
+  padding: 20px;
+}
+.text-0 {
+  font-size: 15px;
+  line-height: 24px;
+}
+.client_review {
+  padding-top: 20px;
+}
+.client_review h3 {
+  font-size: 30px;
+  line-height: 35px;
+}
+.client_review h4 {
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+.cleint_about {
+  justify-content: center;
+}
+
+
+/* ================= fequentrly asked question ==================== */
+#faq {
+  padding: 50px 0;
+}
+.form_left {
+    height: auto;
+    width: auto;
+}
+.faq_left h3 {
+  font-size: 30px;
+  line-height: 35px;
+}
+#faq .faq{
+  margin-bottom: 20px;
+}
+.faq_left small {
+  display: block;
+  margin-bottom: 25px;
+}
+/* form start */
+.form_left_text {
+  margin: 60px 0px;
+}
+.form_left_text h2 {
+  font-size: 38px;
+  line-height: 42px;
+}
+.form_right{
+ padding: 20px;
+}
+/* ==============   Blog Start  ===========  */
+#blog {
+  padding: 50px 0;
+}
+#blog h2 {
+  line-height: 42px;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+.blog_wrapper{
+  row-gap: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  line-height: 30px;
+}
+/* <!--  <<==========================  footer Start  ========================>> --> */
+footer {
+  padding: 48px 0;
+  padding-bottom: 0;
+}
+.footer_right {
+  margin: 25px 0;
+  text-align: center;
+}
+.footer_left{
+  text-align: center;
+}
+.footer_right img {
+  width: 130px;
+}
+
+.footer_menu {
+  display: none;
+  gap: 32px;
+  flex-direction: column;
+}
+.footer_end {
+  padding: 10px 0;
+}
+footer .text-0 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.contact {
+  padding: 20px 10px;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact>div{
+  text-align: center;
+}
+.socil_link {
+  display: flex;
+  gap: 26.67px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+}
+/* ===================================== */
+@media (min-width: 576px) and (max-width:767.99px){
+
+  .navbar-toggler-icon {
+    background-image: none;
+    color: #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: solid 1px #ffffff49;
+  }
+  .navbar-toggler {
+    line-height: normal;
+    border: none;
+  }
+  .navbar-nav {
+    background-color: #1c1e53;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-item .nav-link{
+    margin: 0;
+  }
+  .nav-item:hover {
+    background-color: darkslateblue;
+  }
+
+  .cont_btn {
+    display: none;
+  }
+
+    /* Banner part start */
+    #banner {
+      padding-top: 130px;
+      padding-bottom: 80px;
+    }
+    .banner_left h1 {
+      color: #fff;
+      font-size: 40px;
+      line-height: 46px;
+      font-weight: 600;
+      padding-left: 10px;
+      padding-bottom: 20px;
+  }
+    
+    .banner_left p {
+      padding-left: 10px;
+    }
+    .Banner_btn_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .banner_btn {
+      padding: 10px 20px;
+      font-size: 14px;
+      line-height: 28px;
+      font-weight: 500;
+      display: inline-block;
+    }
+    .banner_btn2 {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 500;
+    }
+    .banner_btn2 svg {
+      margin-left: 2px;
+    }
+    /* ==============   work start =========== */
+    #work {
+      padding: 50px 0;
+    }
+    .work_left {
+      margin: 30px 0;
+    }
+    #work h3 {
+      font-size: 27px;
+      line-height: 35px;
+  }
+  #work .work_pera {
+    line-height: 24px;
+    margin-right: 80px;
+}
+    .work_right_item {
+      margin: 14px 0;
+    }
+    .work_right_icon {
+      margin-bottom: 10px;
+    }
+    #work h4 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    /*  Project Start  */
+    #project {
+      padding: 55px 0;
+    }
+    #project h2 {
+      font-size: 28px;
+      /* font-weight: 500; */
+      line-height: 40px;
+  }
+    .project_left img {
+      object-fit: cover;
+      width: 100%;
+    }
+    .overly_left_img {
+      padding: 15px;
+      width: 100%;
+      height: 100%;
+    }
+    .p_r_img_overlay {
+      padding: 20px;
+    }
+    /* =======  Design ========= */
+  #design {
+    padding: 55px 0;
+  }
+
+  #design h2 {
+    margin: auto;
+    width: auto;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    padding: 0 70px;
+    height: auto;
+}
+
+.design_item {
+  padding: 20px;
+}
+.client_review_left {
+  padding: 20px;
+}
+
+.client_review {
+  padding-top: 35px;
+}
+.client_review h3 {
+  font-size: 35px;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+.client_review h4 {
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+.client_review .text-0{
+  margin-right: 75px;
+}
+.cleint_about {
+  justify-content: center;
+}
+/* ================= fequentrly asked question ==================== */
+#faq {
+  padding: 60px 0;
+}
+.form_left {
+    height: auto;
+    width: auto;
+}
+.form_left_text h2 {
+  font-size: 44px;
+  line-height: 53px;
+}
+
+#faq .faq{
+  margin-bottom: 20px;
+}
+.faq_left small {
+  display: block;
+  margin-bottom: 25px;
+}
+/* form start */
+.form_left_text {
+  margin: 100px 0px;
+}
+.form_right{
+ padding: 20px;
+}
+.form_right h3 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 25px;
+}
+.form_right p {
+  margin-right: 10px;
+}
+.form_right .form_link {
+  margin-bottom: 15px;
+}
+/* ==============   Blog Start  ===========  */
+#blog {
+  padding: 50px 0;
+}
+#blog h2 {
+  line-height: 42px;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+.card-title {
+  font-size: 23px;
+  line-height: 35px;
+  margin-bottom: 14px;
+  margin-top: 11px;
+}
+.blog_wrapper{
+  row-gap: 20px;
+}
+
+/* <!--  <<==========================  footer Start  ========================>> --> */
+footer {
+  padding: 48px 0;
+  padding-bottom: 0;
+}
+.footer_right {
+  margin: 25px 0;
+  text-align: center;
+}
+.footer_left{
+  text-align: center;
+}
+.footer_right img {
+  width: 130px;
+}
+
+.footer_menu {
+  display: none;
+  gap: 32px;
+  flex-direction: column;
+}
+.footer_end {
+  padding: 10px 0;
+}
+footer .text-0 {
+  font-size: 14px;
+  line-height: 20px;
+}
+.contact {
+  padding: 20px 10px;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact>div{
+  text-align: center;
+}
+.socil_link {
+  display: flex;
+  gap: 26.67px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+  /* ******************** */
+}
+
+/* ========================================== */
+@media (min-width: 768px) and (max-width:991.99px){
+  .navbar-toggler-icon {
+    background-image: none;
+    color: #fff;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+    border: solid 1px #ffffff49;
+  }
+  .navbar-toggler {
+    line-height: normal;
+    border: none;
+  }
+  .navbar-nav {
+    background-color: #1c1e53;
+    align-items: center;
+  }
+  .nav-item {
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+  }
+  .nav-item:hover {
+    background-color: darkslateblue;
+  }
+
+  .cont_btn {
+    display: none;
+  }
+
+  /* Banner part start */
+  #banner {
+    padding-top: 130px;
+    padding-bottom: 95px;
+}
+.banner_left h1 {
+  color: #fff;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 500;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+  .banner_left p {
+    padding-left: 10px;
+  }
+  .Banner_btn_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .banner_btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    display: inline-block;
+}
+  .banner_btn2 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+  }
+  .banner_btn2 svg {
+    margin-left: 2px;
+  }
+
+  /* Work part Start here */
+  #work {
+    padding: 80px 0;
+    background-color: #f4f6fc;
+}
+.work_left {
+  padding-bottom: 80px;
+}
+
+.client_review {
+  padding-top: 85px;
+}
+
+
+    /* ******************** */
+}

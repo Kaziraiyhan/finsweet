@@ -1,0 +1,294 @@
+#nav {
+  background-color: #1c1e53;
+  position: fixed !important;
+  z-index: 99;
+  width: 100%;
+}
+#about_us {
+  padding-top: 220px;
+  padding-bottom: 128px;
+}
+#about_us small {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #282938;
+}
+#about_us h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 74px;
+  color: #282938;
+}
+.about_left p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: #282938;
+  opacity: 0.7;
+}
+.about_us_images img {
+  object-fit: cover;
+  width: 100%;
+}
+/* <!--  <<==========================  About us End  ========================>> --> */
+
+.goal {
+  background-color: #f4f5f5;
+  padding-top: 128px;
+}
+.goal small {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+}
+.goal h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  color: #282938;
+}
+.goal p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+.goal_imges img {
+  width: 100%;
+  object-fit: cover;
+  height: 340px;
+}
+/* <!-- =========================  The process we follow //  ========================== --> */
+
+#process {
+  padding: 128px 0;
+}
+.process h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #282938;
+}
+.process img{
+    margin-top: 48px;
+    width: 80%;
+    object-fit: cover;
+}
+.process h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282938;
+  margin-top: 32px;
+}
+.process p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+/* <!-- =========================  // Our Mission    ========================== --> */
+#our_misson{
+    padding: 128px 0;
+    background: #EEF4FA;
+}
+#our_misson small{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+color: #282938;
+}
+#our_misson h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 56px;
+color: #282938;
+margin: 16px 0;
+
+}
+
+.misson_images img{
+    width: 100%;
+    object-fit: cover;
+height: 336px;
+
+}
+.ourvison{
+    margin-top: 96px;
+}
+.misson_details{
+    margin-top: 54px;
+}
+.visson_details{
+    margin-top: 54px;
+}
+
+/* <!-- =========================== <<// Work Start from Here   ========================== --> */
+
+#work{
+  background-color: #fff;
+  padding: 128px 0;
+}
+#work h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+color: #282938;
+margin: auto 0;
+text-align: center;
+padding: 0 335px;
+}
+#work h4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #282938;
+}
+.design_item {
+  background-color: #F4F6FC;
+}
+  
+.web_links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 76px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.web_links h5{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 30px;
+color: #282938;
+
+}
+/* <!-- =========================  Work End //>>  ========================== --> */
+
+
+
+
+
+/* <!--  <<==========================  <<// Meet our team  ========================>> --> */
+#team{
+ background-color: #F4F6FC;
+  padding: 128px 0;
+}
+#team h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+color: #282938;
+
+}
+
+.team_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 48px 64px 32px 64px;
+  margin-top: 48px;
+}
+.card_img{
+  height: 168px;
+  width: 168px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+ transition: .4s;
+}
+.card_img img{
+  width: 100%;
+  object-fit: cover;
+}
+.card_overly{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(348.37deg, #5239FA 17.97%, rgba(255, 255, 255, 0) 79.2%);
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+  }
+.card_img:hover .card_overly{
+opacity: 1;
+visibility: visible;
+  }
+  .socal_link {
+    display: flex;
+    gap: 11.25px;
+    text-align: center;
+    position: absolute;
+    bottom: 28px;
+    left: 50%;
+    display: flex;
+    transform: translate(-50%, 0);
+}
+.socal_link svg{
+  color: #fff;
+  transition: .4s ease;
+}
+.socal_link svg:hover{
+  color: #1c1e53;
+}
+
+.team_card h4{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+color: #1D2130;
+margin-top: 30px;
+}
+.team_card small{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #1D2130;
+opacity: 0.7;
+text-transform: uppercase;
+}
+
+/* <!--  <<==========================  Meet our team //>>  ========================>> --> */
